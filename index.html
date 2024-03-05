@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="HyperNeRF handles topological variations by modeling a family of shapes in a higher-dimensional space, thereby producing more realistic renderings and more accurate geometric reconstructions.">
-  <meta name="keywords" content="HyperNeRF, Nerfies, D-NeRF, NeRF">
+  <meta name="keywords" content="T-TD3">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:image" content="./static/images/thumbnail.png"/>
   <link rel="image_src" href="./static/images/thumbnail.png">
@@ -12,8 +12,8 @@
         type="image/x-icon"
         href="./static/images/favicon.ico"/>
 
-  <title>HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance
-    Fields</title>
+  <title>T-TD3: A Reinforcement Learning Framework for Stable Grasping of Deformable Objects Using Tactile Prior
+</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDF010G6PN"></script>
@@ -64,7 +64,7 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://shimly-2.github.io/T-TD3.github.io">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
@@ -75,17 +75,8 @@
           More Research
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
+          <a class="navbar-item" href="https://shimly-2.github.io/T-TD3.github.io">
+            T-TD3
           </a>
         </div>
       </div>
@@ -99,8 +90,9 @@
   <div class="hero-body">
     <div class="container">
       <div class="columns is-centered">
-        <div class="column is-4 has-text-centered">
-          <img src="static/images/logo.svg" alt="HyperNeRF"/>
+        <!-- <div class="column is-4 has-text-centered"> -->
+		<div class="column has-text-centered" style="width: 120%;">
+          <img style="vertical-align: bottom; width: 120%;" src="static/gif/robot_gif_long.gif" alt="T-TD3"/>
         </div>
       </div>
       <div class="container has-text-centered">
@@ -109,46 +101,24 @@
         </h1>
         <div class="is-size-5 publication-authors">
           <div class="author-block">
-            <a href="https://keunhong.com">Yanmin Zhou, </a><sup></sup></div> <!-- <sup>1,2</sup>-->
+            <a href="https://ieeexplore.ieee.org/author/37086605965">Yanmin Zhou, </a><sup></sup></div> <!-- <sup>1,2</sup>-->
           <div class="author-block">
-            <a href="https://utkarshsinha.com">Yiyang Jin, </a><sup></sup></div>
+            <a>Yiyang Jin, </a><sup></sup></div>
           <div class="author-block">
-            <a href="https://phogzone.com/">Ping Lu, </a><sup></sup></div>
+            <a href="https://ieeexplore.ieee.org/author/37088873654">Ping Lu, </a><sup></sup></div>
           <div class="author-block">
-            <a href="https://jonbarron.info">Shuo Jiang, </a><sup></sup>
+            <a href="https://ieeexplore.ieee.org/author/37086100516">Shuo Jiang, </a><sup></sup>
           </div>
 		  <div class="author-block">
-		    <a href="https://jonbarron.info">Zhipeng Wang, </a><sup></sup>
+		    <a href="https://ieeexplore.ieee.org/author/37085743442">Zhipeng Wang, </a><sup></sup>
 		  </div>
           <div class="author-block">
-            <a href="http://sofienbouaziz.com">Bin He</a><sup></sup>
+            <a href="https://ieeexplore.ieee.org/author/38182723000">Bin He</a><sup></sup>
           </div>
-          <!-- <div class="author-block">
-            <div class="author-portrait">
-              <img src="./static/images/portraits/dgo_rgb.128.gif" class="rgb preload" />
-              <img src="./static/images/portraits/dgo_depth.128.gif" class="depth preload" />
-            </div>
-            <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>
-          </div>
-          <div class="author-block">
-            <div class="author-portrait">
-              <img src="./static/images/portraits/rmbrualla_rgb.128.gif" class="rgb preload" />
-              <img src="./static/images/portraits/rmbrualla_depth.128.gif" class="depth preload" />
-            </div>
-            <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
-          </div>
-          <div class="author-block">
-            <div class="author-portrait">
-              <img src="./static/images/portraits/smseitz_rgb.128.gif" class="rgb preload" />
-              <img src="./static/images/portraits/smseitz_depth.128.gif" class="depth preload" />
-            </div>
-            <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>
-          </div>
-        </div> -->
 
         <div class="is-size-5 publication-authors">
           <span class="author-block"><sup>1</sup>Department of Control Science & Engineering, College of Electronics & Information Engineering, Tongji University,</span>
-          <span class="author-block"><sup>2</sup>National Key Laboratory of Autonomous Intelligent Unmanned Systems</span>
+          <span class="author-block"><sup>2</sup>National Key Laboratory of Autonomous Intelligent Unmanned Systems,</span>
 		  <span class="author-block"><sup>3</sup>Frontiers Science Center for Intelligent Autonomous Systems</span>
         </div>
 
@@ -161,10 +131,10 @@
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Paper</span>
+                  <span>Paper(comming soon)</span>
                 </a>
               </span>
-            <span class="link-block">
+            <!-- <span class="link-block">
                 <a href="https://arxiv.org/abs/2106.13228"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -172,9 +142,9 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-            </span>
+            </span> -->
             <span class="link-block">
-              <a href="https://github.com/google/hypernerf"
+              <a href="https://github.com/Shimly-2/T-TD3"
                  class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                     <i class="fab fa-github"></i>
@@ -184,7 +154,7 @@
             </span>
             <!-- Dataset Link. -->
             <span class="link-block">
-              <a href="https://github.com/google/hypernerf/releases/tag/v0.1"
+              <a href="https://youtu.be/SI0bElrhBJo"
                  class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                     <i class="far fa-images"></i>
@@ -199,36 +169,409 @@
   </div>
 </section>
 
-<section class="hero teaser">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <video id="teaser" autoplay controls muted loop playsinline height="100%">
-        <source src="./static/images/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <i>HyperNeRF</i> handles topological variations by modeling a
-        family of shapes in a higher-dimensional space, thereby producing more realistic renderings
-        and more accurate geometric reconstructions.
-      </h2>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Human tactile perception enables rapid assessment of deformable objects 
+			and the application of appropriate force to prevent slip or excessive 
+			deformation. However, this task remains challenging for robots. To 
+			address this issue, we propose the T-TD3 algorithm, which utilizes a 
+			multi-scale fusion neural network (MSF-Net) for the fused perception 
+			of multi-scale features, including the tactile prior information 
+			obtained through preprocessing. Our approach decomposes the robot task 
+			of grasping deformable objects into three subtasks: slip detection, 
+			stable grasping evaluation, and minimum grasping force tracking. We 
+			develop a simulation environment called CR5GraspStable-Env using 
+			PyBullet and TACTO for the network training. Our work reports a success 
+			rate of 94.81% in the robot task of grasping deformable objects in real
+			, demonstrating an excellent sim-to-real capability. Moreover, the 
+			proposed approach has the potential to be extended to other stable 
+			grasping tasks that utilize tactile perception.
+          </p>
+        </div>
+      </div>
     </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-2">Video</h2>
+		<p>At present, videos are supported as non-public links on YouTube 
+		and can only be accessed through the following links. </p>
+		<a href="https://youtu.be/SI0bElrhBJo">
+		  <span>Support Video Link, please click!</span>
+		  </a>
+        <div class="publication-video">
+          <iframe width="640" height="480" src="https://youtu.be/SI0bElrhBJo"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
   </div>
 </section>
 
+<hr/>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Motivation</h2>
+    <div class="columns is-centered">
+      <!-- Level Sets. -->
+      <div class="column is-full">
+        <div class="content">
+          <h3 class="title is-4">Structure Overview</h3>
+          <div class="level-set has-text-justified">
+            <p>
+              We introduce a reinforcement learning framework that effectively 
+			  utilizes tactile priors, learns multi-modal features and rewards 
+			  under the improved T-TD3 strategy, and conducts grasping subtasks 
+			  of deformable objects in both simulation environment and real world.
+            </p>
+            
+            <img src="static/gif/overview_gif.gif"/>
+            
+            <p>
+              We develop a structured simulation environment called CR5GraspStable-Env, 
+			  using PyBullet for simulating deformable objects and decompose the 
+			  grasping process of deformable objects into three consecutive subtasks: 
+			  slip detection, stable grasping evaluation, and minimum grasping force 
+			  tracking. We employ effective reward shaping for each of the three 
+			  subtasks to better simulate the grasping challenges posed by deformable 
+			  objects.
+            </p>
+			
+			<p>
+			  Here are the sixteen daily objects we used in simulation environment 
+			  and real world: 
+			</p>
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Water Bottle</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Apple</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/water_bottle.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/water_bottle.JPG"
+				 alt="water bottle."/>
+            <img style="position: relative; bottom: 20px; display: inline-block; width: 8%;"
+            	 src="static/figures/objects/white.png"
+            	 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/apple.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/apple.JPG"
+				 alt="apple."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Tennis Ball</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Insole</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/tennis_ball_v2.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/tennis_ball.JPG"
+				 alt="tennis ball."/>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 8%;"
+				 src="static/figures/objects/white.png"
+				 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/left_insole.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/insole.JPG"
+				 alt="insole."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Potato Chip Bag</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Cookies</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/potato_chip_bag.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/potato_chip_bag.JPG"
+				 alt="potato chip bag."/>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 8%;"
+				 src="static/figures/objects/white.png"
+				 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/food-bag.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/cookies.JPG"
+				 alt="cookies."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Fabric</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Pocky</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/fabric.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/fabric.JPG"
+				 alt="fabric."/>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 8%;"
+				 src="static/figures/objects/white.png"
+				 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/pocky.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/pocky.JPG"
+				 alt="pocky."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Bagged Water</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Plastic Jar</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/bagged_water.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/bagged_water.JPG"
+				 alt="bagged water."/>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 8%;"
+				 src="static/figures/objects/white.png"
+				 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/plastic_jar.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/plastic_jar.JPG"
+				 alt="plastic jar."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Plastic Cup</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Orange</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/plastic_cup.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/plastic_cup.JPG"
+				 alt="plastic cup."/>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 8%;"
+				 src="static/figures/objects/white.png"
+				 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/orange.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/orange.JPG"
+				 alt="orange."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Bread</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Banana</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/bread_v2.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/bread.JPG"
+				 alt="bread."/>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 8%;"
+				 src="static/figures/objects/white.png"
+				 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/banana.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/banana.JPG"
+				 alt="banana."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Egg</p>
+			</div>
+			<div style="display: inline-block; width: 49%;">
+				<p style="text-align: center;"> Cherry</p>
+			</div>
+			<div></div>
+			<div style="display: inline-block; width: 25%;">
+				<model-viewer class="level-set-slices"
+							  src="static/models/egg.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;" 
+				 src="static/figures/objects/egg.JPG"
+				 alt="egg."/>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 10%;"
+				 src="static/figures/objects/white.png"
+				 alt="white."/>
+			<div style="display: inline-block; width: 25%">
+				<model-viewer class="level-set-slices"
+							  src="static/models/cherry.glb"
+							  alt="Slices through a 3D ambient surface."
+							  environment-image="neutral" auto-rotate camera-controls>
+				</model-viewer>
+			</div>
+			<img style="position: relative; bottom: 20px; display: inline-block; width: 19%;"
+				 src="static/figures/objects/cherry.JPG"
+				 alt="cherry."/>	
+			<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Block >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+			
+			<p>
+			  We build CR5GraspStable-Env with three subtasks:
+			</p>
+			<img src="static/gif/simulation_git.gif"/>
+			
+			<p>
+			  For the tactile modality obtained from the environment, we propose a 
+			  unified tactile priors representation method to represent the tactile 
+			  modality of the GelSight sensor using four feature maps: flow map, 
+			  contact map, depth map, and force map. 
+			</p>
+			<img src="static/gif/prior_gif~1.gif"/>
+			
+			<p>
+			  To effectively utilize the tactile priors and proprioception acquired 
+			  by the agent, we introduce T-TD3 based on TD3. This extension 
+			  integrates tactile priors and proprioception through a Multi-Scale 
+			  Fusion Network (MSF-Net) acting as the actor-critic network. To 
+			  improve exploration efficiency, a dual actor structure is employed. 
+			  We also implement a strategic noise attenuation method to stabilize 
+			  the model's decision-making ability during training. Additionally, 
+			  we enhance the model by integrating critic regularization terms into 
+			  the Q value estimation process to enhance the model's fitting 
+			  capability.  
+			</p>
+			<img src="static/gif/T-TD3_structure_gif~1.gif"/>
+			
+            <!-- <div class="has-text-centered">
+              <video class="level-set-interpolate" controls autoplay loop playsinline muted height="100%">
+                <source src="static/videos/pocky_x2.mp4" type="video/mp4">
+              </video>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!--/ Level Sets. -->
+
+</section>
 
 <section class="hero is-dark is-small">
   <div class="hero-body">
+	<h2 class="title is-3">Experiment Results</h2>
     <div class="container has-text-centered">
       <div id="results-carousel" class="carousel results-carousel">
 
         <div>
           <div class="results-item">
             <video poster="" id="espresso-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/espresso_rgb.mp4"
+              <source src="static/videos/pocky_x2.mp4"
                       type="video/mp4">
             </video>
             <video poster="" id="espresso-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/espresso_depth.mp4"
+              <source src="static/videos/apple_x2.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -237,11 +580,11 @@
         <div>
           <div class="results-item">
             <video poster="" id="split-cookie-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/split-cookie_rgb.mp4"
+              <source src="static/videos/tennis_ball_x2.mp4"
                       type="video/mp4">
             </video>
             <video poster="" id="split-cookie-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/split-cookie_depth.mp4"
+              <source src="static/videos/insole_x2.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -250,11 +593,11 @@
         <div>
           <div class="results-item">
             <video poster="" id="3dprinter-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/3dprinter_rgb.mp4"
+              <source src="static/videos/potato_chip_bag_x.mp4"
                       type="video/mp4">
             </video>
             <video poster="" id="3dprinter-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/3dprinter_depth.mp4"
+              <source src="static/videos/cookies_x2.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -263,11 +606,11 @@
         <div>
           <div class="results-item">
             <video poster="" id="ricardo-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/ricardo_rgb.mp4"
+              <source src="static/videos/fabric_x2.mp4"
                       type="video/mp4">
             </video>
             <video poster="" id="ricardo-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/ricardo_depth.mp4"
+              <source src="static/videos/pocky_x2.mp4"
                       type="video/mp4">
             </video>
           </div>
@@ -276,15 +619,54 @@
         <div>
           <div class="results-item">
             <video poster="" id="americano-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/americano_rgb.mp4"
+              <source src="static/videos/bagged_water_x2.mp4"
                       type="video/mp4">
             </video>
             <video poster="" id="americano-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/americano_depth.mp4"
+              <source src="static/videos/plastic_jar_x2.mp4"
                       type="video/mp4">
             </video>
           </div>
         </div>
+		
+		<div>
+		  <div class="results-item">
+		    <video poster="" id="americano-rgb" autoplay controls muted loop playsinline height="100%">
+		      <source src="static/videos/plastic_jar_x2.mp4"
+		              type="video/mp4">
+		    </video>
+		    <video poster="" id="americano-depth" autoplay controls muted loop playsinline height="100%">
+		      <source src="static/videos/orange_x2.mp4"
+		              type="video/mp4">
+		    </video>
+		  </div>
+		</div>
+		
+		<div>
+		  <div class="results-item">
+		    <video poster="" id="americano-rgb" autoplay controls muted loop playsinline height="100%">
+		      <source src="static/videos/bread_x2.mp4"
+		              type="video/mp4">
+		    </video>
+		    <video poster="" id="americano-depth" autoplay controls muted loop playsinline height="100%">
+		      <source src="static/videos/banana_x2.mp4"
+		              type="video/mp4">
+		    </video>
+		  </div>
+		</div>
+		
+		<div>
+		  <div class="results-item">
+		    <video poster="" id="americano-rgb" autoplay controls muted loop playsinline height="100%">
+		      <source src="static/videos/egg_x2.mp4"
+		              type="video/mp4">
+		    </video>
+		    <video poster="" id="americano-depth" autoplay controls muted loop playsinline height="100%">
+		      <source src="static/videos/cherry_x2.mp4"
+		              type="video/mp4">
+		    </video>
+		  </div>
+		</div>
 
       </div>
 
@@ -304,194 +686,9 @@
   </div>
 </section>
 
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Neural Radiance Fields (NeRF) are able to reconstruct scenes with unprecedented
-            fidelity,
-            and various recent works have extended NeRF to handle dynamic scenes. A common approach
-            to reconstruct such non-rigid scenes is through the use of a learned deformation field
-            mapping from coordinates in each input image into a canonical template coordinate space.
-            However, these deformation-based approaches struggle to model changes in topology, as
-            topological changes require a discontinuity in the deformation field, but these
-            deformation fields are necessarily continuous.
-          </p>
-          <p>
-            We address this limitation by lifting
-            NeRFs into a higher dimensional space, and by representing the 5D radiance field
-            corresponding to each individual input image as a slice through this "hyper-space". Our
-            method is inspired by level set methods, which model the evolution of surfaces as slices
-            through a higher dimensional surface. We evaluate our method on two tasks: (i)
-            interpolating smoothly between "moments", i.e., configurations of the scene, seen in the
-            input images while maintaining visual plausibility, and (ii) novel-view synthesis at
-            fixed moments. We show that our method, which we dub HyperNeRF, outperforms existing
-            methods on both tasks. Compared to Nerfies, <i>HyperNeRF</i> reduces average error rates by
-            4.1% for interpolation and 8.6% for novel-view synthesis, as measured by LPIPS.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-2">Video</h2>
-        <div class="publication-video">
-          <iframe width="640" height="480" src="https://www.youtube.com/embed/qzgdE_ghkaI"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
 <hr/>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Motivation</h2>
-    <div class="columns is-centered">
-      <!-- Level Sets. -->
-      <div class="column is-half">
-        <div class="content">
-          <h3 class="title is-4">Level-Set Methods</h3>
-          <div class="level-set has-text-justified">
-            <p>
-              HyperNeRF represents changes in scene topology by providing a
-              NeRF with a higher-dimensional input. This is inspired by level-set methods.
-              Level-set methods provide a means to model a family of topologically-varying shapes as
-              slices of a higher dimensional auxiliary function. For example, these shapes
-            </p>
-            <div class="level-set-shapes">
-              <img src="./static/figures/level_set/0.svg"/>
-              <img src="./static/figures/level_set/1.svg"/>
-              <img src="./static/figures/level_set/2.svg"/>
-            </div>
-            <p>
-              can be represented as slices through this auxiliary shape
-            </p>
-            <model-viewer class="level-set-slices"
-                          src="./static/figures/level_set/level_set_3d.glb"
-                          alt="Slices through a 3D ambient surface."
-                          environment-image="neutral" auto-rotate camera-controls></model-viewer>
-            <p>
-              We can naturally model topologically varying shapes by just moving the
-              slicing plane along the higher dimensions. For example, this animation was generated
-              by
-              moving the slicing plane from top to bottom:
-            </p>
-            <div class="has-text-centered">
-              <video class="level-set-interpolate" controls autoplay loop playsinline muted height="100%">
-                <source src="./static/figures/level_set/interpolate2.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--/ Level Sets. -->
-
-      <div class="column is-half">
-        <div class="content has-text-justified">
-          <h3 class="is-4">Slicing Surfaces</h3>
-          <p>
-            Consider the follow shapes, which have different permutations of O xand X.
-          </p>
-          <div class="level-set-ox-shapes">
-            <img src="./static/figures/level_set/ox/0.svg"/>
-            <img src="./static/figures/level_set/ox/1.svg"/>
-            <img src="./static/figures/level_set/ox/2.svg"/>
-            <img src="./static/figures/level_set/ox/3.svg"/>
-          </div>
-          <p>
-            Traditionally, level-set methods use straight planes to slice the higher-dimensional
-            surface:
-          </p>
-          <model-viewer class="level-set-slices"
-                        src="./static/figures/level_set/ox/ox_ap.glb"
-                        alt="Slices through a 3D ambient surface."
-                        environment-image="neutral" auto-rotate camera-controls></model-viewer>
-          <p>
-            This means the higher-dimensional shape must contain copies of the same shape since
-            each permutation has to lie along a single straight slice through the z-axis. If we let
-            the slicing plane bend, it results in a much cleaner template:
-          </p>
-          <model-viewer class="level-set-slices"
-                        src="./static/figures/level_set/ox/ox_ds.glb"
-                        alt="Slices through a 3D ambient surface."
-                        environment-image="neutral" auto-rotate camera-controls></model-viewer>
-          <p>Please see the paper for details.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="container is-max-desktop">
-    <div class="content has-text-justified">
-      <h2 class="title is-3">HyperNeRF</h2>
-      <p>
-        The HyperNeRF architecture is a straightforward extension to Nerfies. The key difference is
-        that the template NeRF is conditioned on additional higher-dimensional coordinates, where
-        the higher dimensional coordinates are given by an "ambient slicing surface" which can be
-        thought of as a higher dimensional analog to the deformation field.
-      </p>
-      <div class="has-text-centered">
-        <img style="width: 90%;" src="./static/figures/architecture.svg"
-             alt="HyperNeRF architecture."/>
-      </div>
-      <h3 class="title is-4">Hyper-Space Template</h3>
-      <p>
-        HyperNeRF leverages main idea of level set methods by using a template NeRF which lives in
-        higher dimensions. In addition to the spatial coordinates (X, Y, Z), the NeRF MLP takes
-        additional higher dimensional coordinates W<sub>1</sub> and W<sub>2</sub>. We call these
-        the "ambient dimensions".
-      </p>
-      <p>
-        Here is an interactive viewer for the hyper-space of capture shown in the teaser. Drag the
-        <span style="color: #29e">blue cursor</span> around to change the ambient dimension rendered
-        on the right.
-      </p>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <div class="hyper-space-wrapper has-text-centered">
-          <div class="hyper-space-axis">
-            <div class="hyper-space">
-              <div class="hyper-space-cursor"></div>
-            </div>
-          </div>
-          Ambient Dimension Coordinates
-          <br/>
-          <small>(Background shows log density of coordinate)</small>
-        </div>
-      </div>
-      <div class="column is-half has-text-centered">
-        <div class="hyper-grid-wrapper">
-          <div class="hyper-grid-rgb">
-            <img src="./static/figures/hyper_grid.jpg"/>
-          </div>
-        </div>
-        The hyper-space template rendered from a fixed viewpoint.
-      </div>
-    </div>
-  </div>
-</section>
-
-<hr/>
-
-<section class="section" id="BibTeX">
+<!-- <section class="section">
   <div class="container content is-max-desktop">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{park2021hypernerf,
@@ -507,7 +704,7 @@
   articleno = {238},
 }</code></pre>
   </div>
-</section>
+</section> -->
 
 
 <section class="section" id="acknowledgements">
@@ -522,10 +719,10 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link" href="https://arxiv.org/pdf/2106.13228.pdf">
+      <!-- <a class="icon-link" href="https://arxiv.org/pdf/2106.13228.pdf">
         <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      </a> -->
+      <a class="icon-link" href="https://github.com/Shimly-2/T-TD3" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
